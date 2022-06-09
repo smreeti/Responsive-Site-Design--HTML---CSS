@@ -26,9 +26,29 @@ dt {
     font-weight: bold;
 }
 
+footer {
+    font-size: smaller;
+}
+
+#copyright {
+    font-family: 'serif';
+    font-style: italic;
+    text-align: center;
+}
+
+header,
+footer {
+    background-color: rgba(65, 132, 42);
+    color: #eee;
+}
+
 h2,
 nav a {
     color: rgb(35, 102, 12);
+}
+
+footer nav a {
+    color: #eee;
 }
 
 h1,
@@ -41,24 +61,4 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
-}
-
-header,
-footer {
-    background-color: rgba(65, 132, 42);
-    color: #eee;
-}
-
-footer {
-    font-size: smaller;
-}
-
-#copyright {
-    font-family: 'serif';
-    font-style: italic;
-    text-align: center;
-}
-
-footer nav a {
-    color: #eee;
 }
